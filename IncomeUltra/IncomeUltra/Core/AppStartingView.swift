@@ -8,7 +8,8 @@
 import SwiftUI
 
 struct AppStartingView: View {
-  @StateObject var viewModel = AppStartingViewModel()
+  @StateObject private var viewModel = AppStartingViewModel()
+
   var body: some View {
     Group {
       if viewModel.shouldShowWelcomeView {
