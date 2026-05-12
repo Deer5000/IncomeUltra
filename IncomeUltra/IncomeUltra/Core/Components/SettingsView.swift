@@ -1,0 +1,18 @@
+//
+//  SettingsView.swift
+//  IncomeUltra
+//
+//  Created by Khidr Brinkley on 5/12/26.
+//
+
+import SwiftUI
+
+struct SettingsView: View {
+    var body: some View {
+      Text("Settings View")
+    }
+}
+
+#Preview {
+    SettingsView()
+}
