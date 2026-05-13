@@ -14,6 +14,6 @@ final class WelcomeViewModel: ObservableObject {
   @Injected(\.AppInfoStore) var appInfoStore
   
   func getAppName() -> String {
-    appInfoStore.name
+    appInfoStore.appName
   }
 }

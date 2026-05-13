@@ -8,7 +8,7 @@
 import Foundation
 
 struct AppInfoLiveStore {
-  let name: String = "Income Ultra"
+  let appName: String = "Income Ultra"
   let description: String = "Income ultra calculates your income from hourly rates or salary, including overtime, and provides a detailed financial breakdown."
   let developer: String = "Khidr Brinkley"
   var version : String {
